@@ -8,7 +8,7 @@
  */
 
 ?>
-<!-- egf content-page.php-->
+<!-- egf content-single.php -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 

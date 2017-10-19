@@ -8,7 +8,7 @@
  */
 
 ?>
-
+<!-- egf content-none.php -->
 <section class="no-results not-found">
 	<header class="page-header">
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'a-letter-to-elise-full-width-starter-theme' ); ?></h1>
