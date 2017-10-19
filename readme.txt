@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -28,6 +28,9 @@ Description
 A Letter to Elise Full Width Starter Theme includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.0.1 - Oct 19, 2017 =
+* Update styles
 
 = 1.0 - May 12 2015 =
 * Initial release
