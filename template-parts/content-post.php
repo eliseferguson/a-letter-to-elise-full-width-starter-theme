@@ -14,6 +14,11 @@
 
 	<div class="entry-content">
 		<?php
+		if ( has_post_thumbnail() ) {
+			echo "<span class='featured-image'>";
+			the_post_thumbnail();
+			echo "</span>";
+		}
 			echo "<h2 class='post-title'>" . get_the_title() . "</h2>";
 			the_content();
 

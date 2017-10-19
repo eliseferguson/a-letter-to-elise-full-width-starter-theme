@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
 Description: Description
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: a-letter-to-elise-full-width-starter-theme
@@ -587,12 +587,23 @@ a:hover, a:active {
 	width: 50%;
 }
 
+.comment-navigation .nav-previous a:before,
+.posts-navigation .nav-previous a:before,
+.post-navigation .nav-previous a:before {
+	content: "<< ";
+}
+
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+.comment-navigation .nav-next a:after,
+.posts-navigation .nav-next a:after,
+.post-navigation .nav-next a:after {
+	content: " >>";
 }
 
 /*--------------------------------------------------------------
@@ -733,6 +744,19 @@ a:hover, a:active {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	padding: 20px;
 }
+.single-post .featured-image {
+	display: block;
+    height: 400px;
+    line-height: 400px;
+    overflow: hidden;
+}
+.single-post .featued-image img {
+	position: relative;
+	margin: -50% auto;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
 .single-post .post-navigation {
 	width: 66%;
 	margin: 20px auto;
@@ -744,8 +768,8 @@ a:hover, a:active {
 .single-post h2.post-title {
 	margin: 0;
 }
-.single-post .entry-footer {
-
+.single-post .entry-content {
+	margin-top: 0;
 }
 
 /*--------------------------------------------------------------
