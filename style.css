@@ -725,6 +725,27 @@ a:hover, a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+.single-post article.post {
+	border: 1px solid #eee;
+    width: 66%;
+    margin: 20px auto;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+.single-post .post-navigation {
+	width: 66%;
+	margin: 20px auto;
+}
+.single-post .comments-area {
+	width: 66%;
+	margin: 20px auto;
+}
+.single-post h2.post-title {
+	margin: 0;
+}
+.single-post .entry-footer {
+
+}
 
 /*--------------------------------------------------------------
 ## Comments
